@@ -1,0 +1,27 @@
+{
+  "name": "monkey-github-notification-preview",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --no-open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@henrikvilhelmberglund/vite-plugin-monkey": "^4.0.5",
+    "@sec-ant/gm-fetch": "^1.2.1",
+    "@sveltejs/vite-plugin-svelte": "^3.1.1",
+    "@tsconfig/svelte": "^5.0.4",
+    "prettier": "^3.3.2",
+    "prettier-plugin-svelte": "^3.2.5",
+    "svelte": "^5.0.0-next.166",
+    "svelte-check": "^3.8.0",
+    "svelte-preprocess": "^5.1.4",
+    "tslib": "^2.6.2",
+    "typescript": "^5.5.2",
+    "unocss": "^0.61.0",
+    "vite": "^5.2.12"
+  }
+}
